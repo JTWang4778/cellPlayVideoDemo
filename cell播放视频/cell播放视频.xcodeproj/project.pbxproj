@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB526E071D1589C6006D706E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB526E061D1589C6006D706E /* main.m */; };
+		BB526E0A1D1589C6006D706E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB526E091D1589C6006D706E /* AppDelegate.m */; };
+		BB526E101D1589C6006D706E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB526E0E1D1589C6006D706E /* Main.storyboard */; };
+		BB526E121D1589C6006D706E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB526E111D1589C6006D706E /* Assets.xcassets */; };
+		BB526E151D1589C6006D706E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB526E131D1589C6006D706E /* LaunchScreen.storyboard */; };
+		BB526E1E1D1589F2006D706E /* JTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB526E1D1D1589F2006D706E /* JTTableViewController.m */; };
+		BB526E211D158D06006D706E /* JTPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB526E201D158D06006D706E /* JTPlayerCell.m */; };
+		BB526E241D1591A6006D706E /* Cupid_高清.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB526E231D1591A6006D706E /* Cupid_高清.mp4 */; };
+		BB526E271D15A579006D706E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB526E261D15A579006D706E /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB526E021D1589C6006D706E /* cell播放视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cell播放视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB526E061D1589C6006D706E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB526E081D1589C6006D706E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB526E091D1589C6006D706E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB526E0F1D1589C6006D706E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB526E111D1589C6006D706E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB526E141D1589C6006D706E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB526E161D1589C6006D706E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB526E1C1D1589F2006D706E /* JTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTableViewController.h; sourceTree = "<group>"; };
+		BB526E1D1D1589F2006D706E /* JTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTableViewController.m; sourceTree = "<group>"; };
+		BB526E1F1D158D06006D706E /* JTPlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPlayerCell.h; sourceTree = "<group>"; };
+		BB526E201D158D06006D706E /* JTPlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPlayerCell.m; sourceTree = "<group>"; };
+		BB526E231D1591A6006D706E /* Cupid_高清.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cupid_高清.mp4"; sourceTree = "<group>"; };
+		BB526E251D15A579006D706E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		BB526E261D15A579006D706E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB526DFF1D1589C6006D706E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB526DF91D1589C6006D706E = {
+			isa = PBXGroup;
+			children = (
+				BB526E041D1589C6006D706E /* cell播放视频 */,
+				BB526E031D1589C6006D706E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB526E031D1589C6006D706E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB526E021D1589C6006D706E /* cell播放视频.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB526E041D1589C6006D706E /* cell播放视频 */ = {
+			isa = PBXGroup;
+			children = (
+				BB526E251D15A579006D706E /* UIView+Extension.h */,
+				BB526E261D15A579006D706E /* UIView+Extension.m */,
+				BB526E231D1591A6006D706E /* Cupid_高清.mp4 */,
+				BB526E081D1589C6006D706E /* AppDelegate.h */,
+				BB526E091D1589C6006D706E /* AppDelegate.m */,
+				BB526E0E1D1589C6006D706E /* Main.storyboard */,
+				BB526E111D1589C6006D706E /* Assets.xcassets */,
+				BB526E131D1589C6006D706E /* LaunchScreen.storyboard */,
+				BB526E161D1589C6006D706E /* Info.plist */,
+				BB526E051D1589C6006D706E /* Supporting Files */,
+				BB526E1C1D1589F2006D706E /* JTTableViewController.h */,
+				BB526E1D1D1589F2006D706E /* JTTableViewController.m */,
+				BB526E1F1D158D06006D706E /* JTPlayerCell.h */,
+				BB526E201D158D06006D706E /* JTPlayerCell.m */,
+			);
+			path = "cell播放视频";
+			sourceTree = "<group>";
+		};
+		BB526E051D1589C6006D706E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB526E061D1589C6006D706E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB526E011D1589C6006D706E /* cell播放视频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB526E191D1589C6006D706E /* Build configuration list for PBXNativeTarget "cell播放视频" */;
+			buildPhases = (
+				BB526DFE1D1589C6006D706E /* Sources */,
+				BB526DFF1D1589C6006D706E /* Frameworks */,
+				BB526E001D1589C6006D706E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cell播放视频";
+			productName = "cell播放视频";
+			productReference = BB526E021D1589C6006D706E /* cell播放视频.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB526DFA1D1589C6006D706E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JTWang;
+				TargetAttributes = {
+					BB526E011D1589C6006D706E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = KG5ZNG86KM;
+					};
+				};
+			};
+			buildConfigurationList = BB526DFD1D1589C6006D706E /* Build configuration list for PBXProject "cell播放视频" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB526DF91D1589C6006D706E;
+			productRefGroup = BB526E031D1589C6006D706E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB526E011D1589C6006D706E /* cell播放视频 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB526E001D1589C6006D706E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB526E241D1591A6006D706E /* Cupid_高清.mp4 in Resources */,
+				BB526E151D1589C6006D706E /* LaunchScreen.storyboard in Resources */,
+				BB526E121D1589C6006D706E /* Assets.xcassets in Resources */,
+				BB526E101D1589C6006D706E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB526DFE1D1589C6006D706E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB526E271D15A579006D706E /* UIView+Extension.m in Sources */,
+				BB526E211D158D06006D706E /* JTPlayerCell.m in Sources */,
+				BB526E0A1D1589C6006D706E /* AppDelegate.m in Sources */,
+				BB526E1E1D1589F2006D706E /* JTTableViewController.m in Sources */,
+				BB526E071D1589C6006D706E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB526E0E1D1589C6006D706E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB526E0F1D1589C6006D706E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB526E131D1589C6006D706E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB526E141D1589C6006D706E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB526E171D1589C6006D706E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB526E181D1589C6006D706E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB526E1A1D1589C6006D706E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell播放视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.JT.cell----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB526E1B1D1589C6006D706E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell播放视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.JT.cell----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB526DFD1D1589C6006D706E /* Build configuration list for PBXProject "cell播放视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB526E171D1589C6006D706E /* Debug */,
+				BB526E181D1589C6006D706E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB526E191D1589C6006D706E /* Build configuration list for PBXNativeTarget "cell播放视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB526E1A1D1589C6006D706E /* Debug */,
+				BB526E1B1D1589C6006D706E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB526DFA1D1589C6006D706E /* Project object */;
+}
